@@ -1,5 +1,5 @@
 def unsafe?(speed)
- !speed.between
+ !speed.between(40, 60)
 end
 
 
